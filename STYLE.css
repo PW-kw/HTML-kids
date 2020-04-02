@@ -1,0 +1,53 @@
+body{
+    font: 15 px/1.5 italic, Verdana
+    Sans-serif;  background-color: plum;}/*this gives all
+    the containers a width of 80%, hides overflow and set margin to auto*/.
+    container{
+        width: 80%;overflow: hidden;margin: auto;}
+        /* this styles the social media icons in the header*/.
+        icons{
+            height: 40px; float right; margin-right 20px;}.
+            icons img{
+                margin-right;20px; border;none; border-radius;50%;
+            } 
+            /* this syles the entire hearder*/
+            header{ background: Tomato; color:white; padding-top 30px;
+                min-height: 70px; border-bottom: 3px; solid #e8491d;
+            }
+            /* this decorate the Nav links
+            */header{ color: mintcream; text-decoration:none;
+            text-transform: uppercase; font-size: 18px;
+         transition: ease;}
+         /* the hover for the nav link*/
+         header.container a: hover{border-top:2px solid #e8491d;}
+         header ul{margin: 0; padding:0;}
+         /*this float, display inline-block and set marginnto the nav link
+         /header li{ float: left; display:inline-block; margin:0 20px 0 20px;}/
+         this float the nav to the right and set margin*/
+         header nav{ float: right; margin-top: 10px;}
+         this is the first section banner /# showcase { min-height: 400px;
+         background:url('../IMG/background.jpg') no-repeat; background-size: cover;
+        background-position: center; text-align: center; border-bottom: 3px solid #e8491d; }
+        /*this styles the header in the first section*/
+        #showcase h1{ margin-top: 100px; font: size 55px; margin-bottom: 10px;color: mintcream;}
+        /*this decorates the paragraph in the first section*/
+        #showcase p{ font-size: 20px; color: mintcream;}
+        /*searching area*/
+        #search{ background: navy; color: white; min-height: 80px;
+        border-bottom: 3px solid #e8491d;}
+        #search h1{float: left;} #search form{float:right; margin-top: 15px;}
+        /* the main or the middle article*/ 
+        #boxes .box{ float: left; width: 30%; text-align: center; padding: 10px;}
+        #boxes .box img{ float: left; width: 90%; width: 250px;}
+        #boxes .box{margin-top: 20px;}
+        #boxes .box{float: left; width: 30%; text-align: center; padding: 10px;}
+
+         
+         
+
+        
+
+
+
+
+
